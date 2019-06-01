@@ -1,1 +1,16 @@
 # dmm_face_compare
+## 仅供娱乐，没有参考价值
+## 对比dmm.co.jp上的封面与预告片中人脸的差值
+
+## 需要以下python库：
+- [requests-html](https://github.com/kennethreitz/requests-html)
+- [tqdm](https://github.com/tqdm/tqdm)
+- [face_recognition](https://github.com/ageitgey/face_recognition),windows非官方支持，安装需参考 https://github.com/ageitgey/face_recognition/issues/175#issue-257710508
+
+## 运行方法:
+`python main.py`
+
+## 声明：
+- 脚本运行过程中从dmm.co.jp域名下获取到的音视频素材，版权归原版权方所有，如果运行完毕没有自动清除，请手动删除
+- 本项目纯属娱乐，运行结果可以看作直接`random.random()`所得的结果，向可能冒犯到的各位小姐姐提前道歉
+
