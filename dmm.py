@@ -1,6 +1,6 @@
 from requests_html import HTMLSession
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+# import matplotlib.pyplot as plt
+# import matplotlib.image as mpimg
 import sys
 
 
