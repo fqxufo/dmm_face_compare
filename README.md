@@ -1,13 +1,14 @@
 # dmm_face_compare
 ```diff
-+ 仅供娱乐，并没有参考价值
+- 仅供娱乐，并没有参考价值
 ```
 ## 对比dmm.co.jp上的封面与预告片中人脸的差值
 
-## 需要以下python库：
+## 需要以下开源库：
 - [requests-html](https://github.com/kennethreitz/requests-html)
-- [tqdm](https://github.com/tqdm/tqdm)
-- [face_recognition](https://github.com/ageitgey/face_recognition),windows非官方支持，安装需参考 https://github.com/ageitgey/face_recognition/issues/175#issue-257710508
+- [face_recognition](https://github.com/ageitgey/face_recognition),  注意windows非官方支持，安装需参考 https://github.com/ageitgey/face_recognition/issues/175#issue-257710508
+- [opencv-python](https://github.com/opencv/opencv)
+
 
 ## 运行方法:
 `python main.py`
