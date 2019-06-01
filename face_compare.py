@@ -35,11 +35,13 @@ def work(cover_image,teaser_Video):
     cover_face_encoding = face_recognition.face_encodings(cover_image,[cover_face_location])[0]
     # print(cover_face_encoding)
 
+    print('开始比对视频和封面')
     pbar = tqdm(total = video_length)
     frame_number = 0
     video_face_count = 0
     face_distances = 0
 
+    
     while frame_number < video_length:
         input_movie.set(1,frame_number)
         ret, frame = input_movie.read()
@@ -60,6 +62,6 @@ def work(cover_image,teaser_Video):
 
 
 
-work('OAE-099-coverImage.jpg','OAE-099-teaservideo.mp4')
+# work('OAE-099-coverImage.jpg','OAE-099-teaservideo.mp4')
 
 
